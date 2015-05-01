@@ -1,10 +1,10 @@
 # -*- coding: latin-1 -*-
 """
-Notes:
 
-- use setup.py develop when tracking in-development code
-- when removing modules or data files from the project, run setup.py clean --all and delete any obsolete .pyc or .pyo.
-
+.. note::
+    * use setup.py develop when tracking in-development code
+    * when removing modules or data files from the project, run setup.py clean --all and delete any obsolete .pyc or .pyo.
+    
 """
 
 """
@@ -35,7 +35,8 @@ setup(
     name = "Farquhar-Wheat",
     version=farquharwheat.__version__,
     packages = find_packages(),
-
+    
+    install_requires = ['pandas>=0.14.0'],
     include_package_data = True,
 
     # metadata for upload to PyPI
