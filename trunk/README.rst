@@ -11,10 +11,6 @@ Prerequisites
 * To run the model and format its outputs: 
 	* Python >= 2.7, http://www.python.org/
 	* Pandas >= 0.14, http://pandas.pydata.org/
-* To couple Farquhar-Wheat with other models: 
-	* NumPy >= 1.7.2, http://www.numpy.org/
-	* Alinea.Astk, https://scm.gforge.inria.fr/svn/openaleapkg/trunk/astk
-	* OpenAlea.MTG, https://scm.gforge.inria.fr/svn/vplants/vplants/trunk/newmtg/
 * To build the documentation: Sphinx >= 1.1.3, http://sphinx-doc.org/
 * To run the tests with Nose: Nose >= 1.3.0, http://nose.readthedocs.org/
 * To get code coverage testing: Coverage >= 3.6b3, http://nedbatchelder.com/code/coverage/
