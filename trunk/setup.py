@@ -36,7 +36,7 @@ setup(
     version=farquharwheat.__version__,
     packages = find_packages(),
     
-    install_requires = ['pandas>=0.14.0'],
+    install_requires = ['pandas>=0.18.0'],
     include_package_data = True,
 
     # metadata for upload to PyPI
