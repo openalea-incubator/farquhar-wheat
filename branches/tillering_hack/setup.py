@@ -43,7 +43,7 @@ setup(
     author = "C.Chambon, R.Barillot",
     author_email = "camille.chambon@grignon.inra.fr, romain.barillot@grignon.inra.fr",
     description = "Farqhuar model of wheat photosynthesis",
-    long_description = "Modèle Farquhar de photosynthèse du blé",
+    long_description = "Farqhuar model of wheat photosynthesis",
     license = "", # TODO
     keywords = "", # TODO
     url = "https://sourcesup.renater.fr/projects/farquhar-wheat/",
