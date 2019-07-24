@@ -9,12 +9,12 @@ Prerequisites
 =============
 
 * To run the model and format its outputs: 
-	* Python >= 2.7, http://www.python.org/
-	* Pandas >= 0.18, http://pandas.pydata.org/
+    * Python >= 2.7, http://www.python.org/
+    * Pandas >= 0.18, http://pandas.pydata.org/
 * To build the documentation: Sphinx >= 1.1.3, http://sphinx-doc.org/
 * To run the tests with Nose: 
-	* Nose >= 1.3.0, http://nose.readthedocs.org/
-	* NumPy >= 1.11.0, http://www.numpy.org/
+    * Nose >= 1.3.0, http://nose.readthedocs.org/
+    * NumPy >= 1.11.0, http://www.numpy.org/
 * To get code coverage testing: Coverage >= 3.6b3, http://nedbatchelder.com/code/coverage/
 
 
@@ -49,7 +49,7 @@ With Nose::
     
 Without Nose, install the package (see section "Installing") and run::
 
-	python test/unit/test_farquharwheat.py
+    python test/unit/test_farquharwheat.py
 
 
 Contact
