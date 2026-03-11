@@ -64,7 +64,7 @@ I0 = 1370  # Extraterrestrial solar radiation (W m-2)
 K = 0.40  # Von Kármán's constant (dimensionless)
 LAMBDA = 2260E3  # Latent heat for vaporisation of water (J kg-1)
 RHOCP = 1256  # Volumetric heat capacity of air (J m-3 K-1)
-SIGMA = 5.6704E-8  # Stefan-Bolzmann constant (W-2 K-4)
+SIGMA = 5.6704E-8  # Stefan-Bolzmann constant (W m-2 K-4)
 ZR = 2  # Height above canopy at which reference wind (Ur) is measured (m)
 
 s_A = 239  # Factor in the calculation of the Saturation vapour pressure
@@ -77,15 +77,15 @@ KELVIN_DEGREE = 273.15  #: Conversion factor from degree C to Kelvin
 PATM = 1.01325E5  # Atmospheric pressure (Pa)
 
 Ur_min = 0.1  # Minimum wind speed (m s-1) TODO: Temporary patch to avoid div 0 error
-Zh_d = 0.7  # estimation factor canopy heigh into Zero plane displacement height
-Zh_Zo = 0.1  # estimation factor canopy heigh into roughness length
+Zh_d = 0.7  # estimation factor canopy height into Zero plane displacement height
+Zh_Zo = 0.1  # estimation factor canopy height into roughness length
 rhb_blade_A = 154  # factor in Boundary layer resistance to heat calculation for blade
 rhb_other_A = 1.2E-5  # factor A in Boundary layer resistance to heat calculation for other organs than blades
 rhb_other_B = 1.5E-5  # factor B in Boundary layer resistance to heat calculation for other organs than blades
 rhb_other_C = 0.47  # factor C in Boundary layer resistance to heat calculation for other organs than blades
 ra_expo = 2  # exponent in calculation of Turbulence resistance to heat
 
-PARa_to_RGa = 1.53  # Used to convert PAR absorbed into RG absorbed (see details in notice entitiled "Notes sur le calcul du rayonnement net à partir du PAR absorbé")
+PARa_to_RGa = 1.48  # Used to convert PAR absorbed into RG absorbed (see details in notice entitled "Notes sur le calcul du rayonnement net à partir du PAR absorbé")
 Watt_to_PPFD = 4.55  # It is assumed that 1 W m-2 of PAR is equivalent to 4.55 µmol m-2 s-1 of PAR (Goudriaan and Laar, 1994)
 rbh_rbw = 0.96  # estimation factor Boundary layer resistance for water from Boundary layer resistance to heat
 

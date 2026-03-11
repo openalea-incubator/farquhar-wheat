@@ -69,7 +69,7 @@ def _organ_temperature(w, z, Zh, Ur, PAR, gsw, Ta, Ts, RH, organ_name):
     # tau = RGa/parameters.I0                                    #: Atmospheric transmissivity (dimensionless)
     # fclear = 0.1 + 0.9*max(0, min(1, (tau-0.2)/0.5))    #: Fraction sky clearness
 
-    Rn = RGa  # NB: this only accounts for the visible radiations.
+    Rn = RGa # # NB: this only accounts for the visible radiations. More general equation would be RGa + 0.95 * parameters.SIGMA * ((Ta + parameters.KELVIN_DEGREE)**4 + 0.97 * (Tsoil + parameters.KELVIN_DEGREE)**4 - 2*(Ts + parameters.KELVIN_DEGREE)**4)
     # General equation is Rn = RGa + epsilon*Ra + epsilon*sigma*(Ts_feuilles_voisines + parameters.KELVIN_DEGREE)**4 - epsilon*sigma*(Ts + parameters.KELVIN_DEGREE)**4
     # if Ra unavailable, use Ra = sigma*(Tair + parameters.KELVIN_DEGREE)**4*fvap*fclear
 
